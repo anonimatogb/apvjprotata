@@ -3,22 +3,116 @@
     padding: 0%;
     overflow-x: hidden;
 }
-
-.ira{
-    max-width: 150px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+/* TÍTULOS */
+section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #1c1c1c;
+  border-left: 6px solid #c62828; /* vermelho judô */
+  padding-left: 12px;
+}
+
+/* PARÁGRAFOS */
+section p {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* LISTAS */
+section ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  list-style: disc;
+}
+
+/* SEÇÃO LOCAL (MAPA) */
+#local {
+  padding: 0;
+  overflow: hidden;
+}
+
+#local iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 12px;
+}
+
+.ira{
+    margin-left: 5.5vh;
+    max-width: 125px;
+}
+.casa{
+    width: 100%;
+    height: 100vh;
+    filter: blur(10px);
+   object-fit: cover;
+}
 header {
     display: flex;
-    padding: 4vh;
+    padding: 3vh;
 
 }
 header nav {
     display: flex;
     align-items: center;
-    margin-left: 50vh;
+    margin-left: 60vh;
+    gap: 10vh;
 }
 header nav a{
-
+text-decoration: none;
+color: #ff1111;
+font-size: 2.5vh;
+    }
+    .tata.normal{
+        z-index: 1;
+    }
+    .tata{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .tata.blur{
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: blur(10px);
+        clip-path: inset(99% 0 0 0 );
+        z-index: 2;
+    }
+    .tata-wraper{
+        position: absolute;
+        margin-left: 110vh;
+        margin-top: 1.3vh;
+        width: 100vh;
+       overflow: hidden;
+       z-index: 2;
+    }
+   a:hover{
+    transition: 0.3s;
+    color: #ffffff;
+    background-color: #ff1111;
+    border: 8px solid #ff1111;
+    border-radius: 15px;
+   }
     
-}

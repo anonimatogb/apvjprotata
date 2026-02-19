@@ -21,21 +21,25 @@
             <a href="#local">Localização</a>
         </nav>
     </header>
-    <img src="img/img1.png" alt="img1">
-    <section class="sobre">
+    <div class="tata-wraper">
+        <img src="img/tata.png" alt="tata" class="tata normal">
+        <img src="img/tata.png" alt="tata" class="tata blur">,
+    </div>
+    <img src="img/img1.png" alt="img1" class="casa">
+    <section id="sobre">
         <h2>Sobre</h2>
         <p>A APVJ (Associação de Judô) é uma entidade dedicada à promoção, ao ensino e ao desenvolvimento do judô como ferramenta de formação esportiva, educacional e social. Por meio da prática do judô, a APVJ busca contribuir para a construção de cidadãos mais disciplinados, responsáveis e conscientes de seu papel na sociedade.</p>
     </section>
-    <section class="missao">
+    <section id="missao">
         <h2>Missão</h2>
         <p>Promover o judô de forma inclusiva e acessível, utilizando seus princípios — como respeito, disciplina, autocontrole e perseverança — para o desenvolvimento físico, mental e moral de crianças, jovens e adultos, dentro e fora dos tatames.</p>
     </section>
-    <section class="visao">
+    <section id="visao">
         <h2>Visão</h2>
         <p> Ser reconhecida como uma associação de referência na formação de atletas e cidadãos, destacando-se pela excelência técnica, pelos valores humanos e pelo impacto positivo na comunidade.
         </p>
     </section>
-    <section class="valores">
+    <section id="valores">
         <h2>Valores</h2>
         <ul>
             <li>Respeito e ética</li>
@@ -48,7 +52,7 @@
             <li>Superação e humildade</li>
         </ul>
     </section>
-    <section class="metas">
+    <section id="metas">
         <h2>Metas</h2>
         <ul>
             <li>
@@ -66,8 +70,8 @@
 
     </section>
 
-<section class="local">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.0460792071899!2d-50.57744621571625!3d-22.415146975831668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949504b78b0dc829%3A0x9c0fc8eef96f4929!2sAv.%20Siqueira%20Campos%2C%20615%20-%20Centro%2C%20Paragua%C3%A7u%20Paulista%20-%20SP%2C%2019700-000!5e1!3m2!1spt-BR!2sbr!4v1771448329474!5m2!1spt-BR!2sbr" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section id="local">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d461.04607912697213!2d-50.5774462!3d-22.415147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9495055d25a7e293%3A0x68d12ae4c679357!2sCentro%20de%20Treinamento%20de%20Jud%C3%B4%20Isaburo%20Suto!5e1!3m2!1spt-BR!2sbr!4v1771467770572!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 
