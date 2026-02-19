@@ -1,5 +1,15 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['usuario'])) {
+    header("Location: login.php");
+    exit;
+}
+
+?> 
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -19,6 +29,9 @@
             <a href="#valores">Valores</a>
             <a href="#metas">Metas</a>
             <a href="#local">Localização</a>
+            <?php 
+echo '<p class="menu-item">Olá, ' . $_SESSION['usuario']['nome'].'<br><a href="processos/logout.php" class="hover-link">Sair da conta</a></p>';
+?>
         </nav>
     </header>
     <div class="tata-wraper">

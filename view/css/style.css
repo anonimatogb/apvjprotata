@@ -17,7 +17,6 @@ section {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* TÍTULOS */
 section h2 {
   font-size: 26px;
   margin-bottom: 15px;
@@ -26,14 +25,12 @@ section h2 {
   padding-left: 12px;
 }
 
-/* PARÁGRAFOS */
 section p {
   font-size: 16px;
   margin-top: 10px;
   text-align: justify;
 }
 
-/* LISTAS */
 section ul {
   margin-top: 15px;
   padding-left: 20px;
@@ -45,7 +42,7 @@ section ul li {
   list-style: disc;
 }
 
-/* SEÇÃO LOCAL (MAPA) */
+
 #local {
   padding: 0;
   overflow: hidden;
@@ -77,12 +74,13 @@ header nav {
     display: flex;
     align-items: center;
     margin-left: 60vh;
-    gap: 10vh;
+    gap: 6.3vh;
 }
-header nav a{
+header nav a, header nav p{
 text-decoration: none;
-color: #ff1111;
-font-size: 2.5vh;
+max-width: 200px;
+color: black;
+font-size: 2.3vh;
     }
     .tata.normal{
         z-index: 1;
@@ -97,7 +95,7 @@ font-size: 2.5vh;
         top: 0;
         left: 0;
         filter: blur(10px);
-        clip-path: inset(99% 0 0 0 );
+        clip-path: inset(98.5% 0 0 0 );
         z-index: 2;
     }
     .tata-wraper{
@@ -116,3 +114,30 @@ font-size: 2.5vh;
     border-radius: 15px;
    }
     
+
+   .menu-item {
+  position: relative;
+  max-width: 100%;
+}
+
+.hover-link {
+  display: none;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #ff1111;
+  font-size: 2.3vh;
+   border-radius: 15px;
+  padding: 3.5px;
+}
+
+.menu-item:hover .hover-link {
+  display: inline;
+}
+
+.menu-item:hover {
+  background-color: #ff1111;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 8px;
+  max-width: 100%;
+}
