@@ -1,6 +1,6 @@
 <?php
 
-require_once "C:/xampp/htdocs/apvjprotata/model/UsuarioModel.php";
+require_once "C:/turma2/xampp/htdocs/apvjprotata/model/UsuarioModel.php";
 
 class UsuarioController
 {
